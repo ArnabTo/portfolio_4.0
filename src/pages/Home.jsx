@@ -35,7 +35,7 @@ export default function Home() {
                           repeat={Infinity}
                           />
                           </h1><br/>
-                            <div className="d_Cv"><button onClick={downlaodResume}>Resume</button></div>
+                          <button className="resmBtn bg-white w-1/5 px-4 py-2 rounded text-[#242424] text-center text-xl font-bold" onClick={downlaodResume}>Resume</button>
                         </p>
                     </div>
                 </div>

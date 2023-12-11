@@ -98,25 +98,10 @@
 .home_Text p h1 {
   font-weight: bolder;
 }
-.d_Cv {
-  text-align: center;
-  background: transparent;
-  width: 10rem;
-  padding: 7px 0 7px 0;
-  border-radius: 30px;
-  border: 2px solid white;
-}
-.d_Cv:hover{
-  background: #fff;
-}
-.d_Cv a {
-  text-decoration: none;
-  font-size: 1.5rem;
+
+.resmBtn {
+  background: white;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
-}
-.d_Cv a:hover{
-  color: #4d4d4d;
 }
 .myImg {
   margin-left: 10rem;
