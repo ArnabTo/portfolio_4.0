@@ -12,12 +12,12 @@ export default function NavBar() {
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, borderRadius: 15 }}
                 exit={{ opacity: 0, x: 100, transition: { duration: 0.4 } }}
-                className="nav m-auto">
-                <div className="container m-auto d-flex p-2" id="nav_Container">
-                    <span className="nav_logo mx-3">
-                    <img className="max-w-sm" src={logo}/>
-                    
-                    <a className="text-white" href="#">ARSDEV.</a></span>
+                className="nav mx-auto mb-8">
+                <div className="container m-auto d-flex p-2 items-center" id="nav_Container">
+                    <span className="nav_logo flex flex-col justify-center items-center mx-3 text-white font-extrabold">
+                    <img className="logo" src={logo}/>
+                    ARSDEV.
+                    </span>
                     <ul className="nav_Menu nav_links d-flex p-0" id={showNav ? "showNav" : "nav_Menu"}>
                         <li className="text-uppercase list-unstyled mx-2 p-1"><HashLink to="/#hme">Home</HashLink></li>
                         <li className="text-uppercase list-unstyled mx-2 p-1"><HashLink to='/#abtme'>About</HashLink></li>
