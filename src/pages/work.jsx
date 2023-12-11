@@ -25,7 +25,7 @@ export default function MyWorks() {
                                 <p>
                                     Portfolio Site using HTML, CSS, Bootstrap, Javascript.
                                 </p>
-                                <a href="https://arnabto.github.io/portfolio1.0.github.io/" className="btn">Preview</a>
+                                <a href="https://arnabto.github.io/portfolio1.0.github.io/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview</a>
                             </div>
                         </div>
                         <div className="work_div" data-aos="zoom-out-up">
@@ -35,7 +35,7 @@ export default function MyWorks() {
                                 <p>
                                 Portfolio Site using HTML, CSS, Bootstrap, JavaScript.
                                 </p>
-                                <a href="https://arnabto.github.io/portfolio2.0.github.io/" className="btn">Preview.</a>
+                                <a href="https://arnabto.github.io/portfolio2.0.github.io/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         {
@@ -47,7 +47,7 @@ export default function MyWorks() {
                                 <p>
                                     Portfolio Site with Reactjs, Framer-Motion, React-router etc.
                                 </p>
-                                <a href="https://github.com/ArnabTo/portfolio3.0" className="btn">Preview.</a>
+                                <a href="https://github.com/ArnabTo/portfolio3.0" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         <div className="work_div" data-aos="zoom-out-up">
@@ -57,7 +57,7 @@ export default function MyWorks() {
                                 <p>
                                     Agency Website using HTML, CSS, Bootstrap, JavaScript
                                 </p>
-                                <a href="https://arnabto.github.io/doop-psd-to-html/" className="btn">Preview.</a>
+                                <a href="https://arnabto.github.io/doop-psd-to-html/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         <div className="work_div" data-aos="zoom-out-up">
@@ -67,7 +67,7 @@ export default function MyWorks() {
                                 <p>
                                     Image Slider with HTML, CSS, JavaScript
                                 </p>
-                                <a href="https://arnabto.github.io/slider.github.io/" className="btn">Preview.</a>
+                                <a href="https://arnabto.github.io/slider.github.io/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         <div className="work_div" data-aos="zoom-out-up">
@@ -77,7 +77,7 @@ export default function MyWorks() {
                                 <p>
                                     Simple Calculator using HTMl, CSS, JavaScript.
                                 </p>
-                                <a href="https://arnabto.github.io/calcualtor.github.io/" className="btn">Preview.</a>
+                                <a href="https://arnabto.github.io/calcualtor.github.io/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         <div className="work_div" data-aos="zoom-out-up">
@@ -87,7 +87,7 @@ export default function MyWorks() {
                                 <p>
                                 Frontend Mentor - Product preview card component Project.
                                 </p>
-                                <a href="https://arnabto.github.io/product-preview-card-component-main/" className="btn">Preview.</a>
+                                <a href="https://arnabto.github.io/product-preview-card-component-main/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         <div className="work_div" data-aos="zoom-out-up">
@@ -97,7 +97,7 @@ export default function MyWorks() {
                                 <p>
                                  Italian Food Shop Website using Reactjs, Swiper-Slider, Bootstrap5, Framer-motion, Aos-animation.
                                 </p>
-                                <a href="https://italian-food-shop.netlify.app/" className="btn">Preview.</a>
+                                <a href="https://italian-food-shop.netlify.app/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         <div className="work_div" data-aos="zoom-out-up">
@@ -107,7 +107,7 @@ export default function MyWorks() {
                                 <p>
                                  React Portfolio Site with React, Swiper-Slider, Bootstrap5, Framer-motion, React-custom-cursor
                                 </p>
-                                <a href="https://github.com/ArnabTo/Portfolio_4.0" className="btn">Preview.</a>
+                                <a href="https://github.com/ArnabTo/Portfolio_4.0" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         <div className="work_div"  data-aos="zoom-out-up">
@@ -117,7 +117,7 @@ export default function MyWorks() {
                                 <p>
                                  Italian Food Shop Website using Reactjs, Swiper-Slider, Bootstrap5, Framer-motion, Aos-animation.
                                 </p>
-                                <a href="https://arnabto.github.io/Netflix-UI-Clone/" className="btn">Preview.</a>
+                                <a href="https://arnabto.github.io/Netflix-UI-Clone/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         </span>
