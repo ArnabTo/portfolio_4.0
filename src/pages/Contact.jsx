@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import "../index.css"
 export default function Contact() {
     return (
-        <>
+        <div id="cont">
             <div className="cont_aCt" data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom">
                 <motion.div
@@ -65,6 +65,6 @@ export default function Contact() {
                     </motion.div>
                 </motion.div>
             </div>
-        </>
+        </div>
     )
 }

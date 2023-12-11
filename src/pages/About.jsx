@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 export default function AboutMe() {
     return (
         <>
-            <div className="abt">
+            <div className="abt" id="abtme">
                 <div className="abt_Cont" data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
                     <header>About Me.</header>

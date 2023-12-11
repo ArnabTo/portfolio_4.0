@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import MyIMg from "../assets/about2.jpg";
 export default function Home() {
     return (
-        <>
+        <div id="hme">
             <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, borderRadius: 15 }}
@@ -20,6 +20,6 @@ export default function Home() {
                     </div>
                 </div>
             </motion.div>
-        </>
+        </div>
     )
 }

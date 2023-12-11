@@ -13,7 +13,7 @@ import { useState } from "react";
 export default function MyWorks() {
     const [show, setShow] = useState(false);
     return (
-        <>
+        <div id="projs">
             <div className="work">
                 <div className="work_Cont">
                     <header>My Works.</header>
@@ -127,6 +127,6 @@ export default function MyWorks() {
                     <button className="shHide" type="button" onClick={()=>setShow(!show)}>{show === true ? 'Hide' : 'Show More..' }</button>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
