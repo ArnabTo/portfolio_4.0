@@ -15,7 +15,7 @@ export default function NavBar() {
                 className="nav mx-auto mb-8">
                 <div className="container m-auto d-flex p-2 items-center" id="nav_Container">
                     <span className="nav_logo flex flex-col justify-center items-center mx-3 text-white font-extrabold">
-                    <img className="logo" src={logo}/>
+                    <img className="logo w-8" src={logo}/>
                     ARSDEV.
                     </span>
                     <ul className="nav_Menu nav_links d-flex p-0" id={showNav ? "showNav" : "nav_Menu"}>
