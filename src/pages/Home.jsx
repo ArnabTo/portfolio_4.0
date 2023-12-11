@@ -2,6 +2,16 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import MyIMg from "../assets/about2.jpg";
 export default function Home() {
+    const downlaodResume = () => {
+       const resumeFileId = '1M9PWOBh6DIYnqRAqD5sNPav8eu3pHFpD';
+       const fileURL = `https://drive.google.com/uc?id=${resumeFileId}`;
+       const fileLInk = document.createElement('a');
+       fileLInk.href = fileURL
+       fileLInk.download = 'resume.pdf';
+       document.body.appendChild(fileLInk);
+       fileLInk.click();
+       document.body.removeChild(fileLInk);
+    };
     return (
         <div id="hme">
             <motion.div
@@ -25,7 +35,7 @@ export default function Home() {
                           repeat={Infinity}
                           />
                           </h1><br/>
-                            <div className="d_Cv"><a href="#">Resume</a></div>
+                            <div className="d_Cv"><button onClick={downlaodResume}>Resume</button></div>
                         </p>
                     </div>
                 </div>
