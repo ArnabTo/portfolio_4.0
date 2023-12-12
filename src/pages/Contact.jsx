@@ -18,7 +18,7 @@ export default function Contact() {
                         className="form_Container">
                         <div className="col-md-9 mb-md-0 mb-5 form">
                             <p>Have any questions? Send Message. I will reply in several hours.</p>
-                            <form id="contact-form" name="contact-form" action="https://formsubmit.co/8bc4ff6954b326513bbdb16ff4edf310" method="POST">
+                            <form id="contact-form" name="contact-form" action="https://formsubmit.co/el/bafujo" method="POST">
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="md-form mb-0">
