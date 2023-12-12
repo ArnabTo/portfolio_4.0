@@ -8,6 +8,8 @@ import AboutMe from './pages/About.jsx'
 import StaticSlide from './pages/StaticSlide'
 import TestiMonial from './pages/Testimonial'
 import Contact from './pages/Contact'
+import Education from './pages/Education'
+
 function App() {
 
   return (
@@ -18,6 +20,7 @@ function App() {
       <MyWorks/>
       <AboutMe/>
       <StaticSlide/>
+      <Education/>
       <TestiMonial/>
       <Contact/>
       <CustomCursor/>

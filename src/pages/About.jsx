@@ -8,15 +8,12 @@ export default function AboutMe() {
                     <header>About Me.</header>
                     <div className="abtS">
                         <div className="abt_Me">
-                            <h1>Hello, <br />I am a Passionate Front-end Web Developer</h1>
+                            <h1>Hello, <br /></h1>
                             <p>
-                                Hi, I am Arnab Saha, Passionate MERN stack developer seeking a
-                                challenging role to develop scalable web
-                                applications and contribute to the success
-                                of an innovative organization. Committed to
-                                continuously learning new technologies and
-                                delivering high-quality solutions that exceed
-                                client expectations.</p>
+                                I am a Junior MERN stack developer with expertise in building dynamic web applications. Proficient in technologies such as React, Express, Node, MongoDB, and Tailwind CSS, I bring a comprehensive skill set to the development landscape.
+                                Driven by a commitment to continuous improvement, I am currently expanding my skill set by delving into advanced technologies like Next.js. This strategic initiative is geared towards enhancing the performance and user experience of my projects, showcasing a proactive approach to staying abreast of industry trends.
+                                As a developer, I am dedicated to leveraging my knowledge to create robust, scalable, and high-performance solutions. My familiarity with the MERN stack, coupled with an ongoing pursuit of learning and mastery, positions me as a dynamic contributor to the field of web development.
+                            </p>
 
                         </div>
                         <div className="skLs">
@@ -57,7 +54,7 @@ export default function AboutMe() {
                                                         <div className="skill-per" per="70%" style={{ maxWidth: "70%" }}></div>
                                                     </div>
                                                 </motion.div>
-    
+
                                                 <motion.div whileHover={{ scale: 1.1 }} className="skill">
                                                     <div className="skill-name">Bootstrap</div>
                                                     <div className="skill-bar">

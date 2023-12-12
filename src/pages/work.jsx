@@ -9,6 +9,8 @@ import Proj_7 from "../assets/proj7.png"
 import Proj_8 from "../assets/proj8.png"
 import Proj_9 from "../assets/proj9.png"
 import Proj_10 from "../assets/proj10.png"
+import Proj_11 from "../assets/proj11.png"
+import Proj_12 from "../assets/proj12.png"
 import { useState } from "react";
 export default function MyWorks() {
     const [show, setShow] = useState(false);
@@ -68,6 +70,26 @@ export default function MyWorks() {
                                     Image Slider with HTML, CSS, JavaScript
                                 </p>
                                 <a href="https://arnabto.github.io/slider.github.io/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
+                            </div>
+                        </div>
+                        <div className="work_div" data-aos="zoom-out-up">
+                            <img className="img-fluid" src={Proj_12} alt="nature" />
+                            <div className="info">
+                                <h3>SkillNest</h3>
+                                <p>
+                                    Student and Class Management site with React, Node, Express, MongoDB, Mongoose, TailwindCSS, Vercel etc.
+                                </p>
+                                <a href="https://skill-nest.netlify.app/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
+                            </div>
+                        </div>
+                        <div className="work_div" data-aos="zoom-out-up">
+                            <img className="img-fluid" src={Proj_11} alt="nature" />
+                            <div className="info">
+                                <h3>SharePlate</h3>
+                                <p>
+                                   Food Sharing site  with React, Node, Express, MongoDB, TailwindCSS, Vercel etc.
+                                </p>
+                                <a href="https://arsdev-food-share.netlify.app/" className="bg-[#252525] text-white px-4 py-2 rounded font-medium">Preview.</a>
                             </div>
                         </div>
                         <div className="work_div" data-aos="zoom-out-up">
