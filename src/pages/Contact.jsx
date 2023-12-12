@@ -1,6 +1,12 @@
 import { motion } from "framer-motion"
+import { useForm, ValidationError } from "@formspree/react"
+import toast, { Toaster } from "react-hot-toast"
 import "../index.css"
 export default function Contact() {
+    const [formsubmit, handleSubmit] = useForm('mdorqjlo')
+    if (formsubmit.succeeded) {
+        toast.success('Message sent.')
+    }
     return (
         <div id="cont">
             <div className="cont_aCt" data-aos="fade-up"
@@ -18,11 +24,15 @@ export default function Contact() {
                         className="form_Container">
                         <div className="col-md-9 mb-md-0 mb-5 form">
                             <p>Have any questions? Send Message. I will reply in several hours.</p>
-                            <form id="contact-form" name="contact-form" action="https://formsubmit.co/el/bafujo" method="POST">
+                            <form id="contact-form" name="contact-form" onSubmit={handleSubmit} action="https://formspree.io/f/mdorqjlo" method="POST">
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="md-form mb-0">
-                                            <motion.input whileHover={{ scale: 1.1 }} whileFocus={{ scale: 1.1 }} type="text" id="name" placeholder="Your Name" name="name" className="form-control" required />
+                                            <motion.input
+                                                whileHover={{ scale: 1.1 }}
+                                                whileFocus={{ scale: 1.1 }} type="text" id="name"
+                                                placeholder="Your Name" name="name"
+                                                className="form-control" required />
                                         </div>
                                     </div>
 
@@ -65,6 +75,10 @@ export default function Contact() {
                     </motion.div>
                 </motion.div>
             </div>
+            <Toaster
+                position="top-center"
+                reverseOrder={false}
+            />
         </div>
     )
 }
