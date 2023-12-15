@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 import MyIMg from "../assets/about2.jpg";
 export default function Home() {
@@ -41,6 +41,7 @@ export default function Home() {
                         <span className="flex gap-2 my-4">
                             <a href="https://github.com/ArnabTo"><Github size={30}/></a>
                             <a href="https://www.linkedin.com/in/itsarnab/"><Linkedin size={30} /></a>
+                            <a href="mailto:arnabs929@gmail.com"><Mail size={30}/></a>
                         </span>
                     </div>
                 </div>
