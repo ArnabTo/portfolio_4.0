@@ -2,7 +2,7 @@
 const Education = () => {
     return (
         <div className=" max-w-6xl mx-auto mb-4">
-        <header className="text-white font-bold text-4xl font-[Montserrat] m-4">Services.</header>
+        <header className="text-white font-bold text-4xl font-[Montserrat] m-4">Education.</header>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">
